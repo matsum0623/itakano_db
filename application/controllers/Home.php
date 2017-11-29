@@ -9,5 +9,6 @@ class Home extends CI_Controller {
 		$this->load->view('common_parts/header');
 		$this->load->view('home');
 		$this->load->view('common_parts/footer');
+		$this->load->view('common_parts/html_foot');
 	}
 }
