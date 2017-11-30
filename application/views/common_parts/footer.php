@@ -1,12 +1,7 @@
 <div id="foot_base">
   <footer>
     <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="gallery.html">商品一覧</a></li>
-      <li><a href="staff.html">スタッフ紹介</a></li>
-      <li><a href="#">店舗案内</a></li>
-      <li><a href="#">アクセス</a></li>
-      <li><a href="contact.html">お問い合わせ</a></li>
+      <?php require_once './nav_menu.php'; ?>
     </ul>
     <div id="f_logo">Sample Site</div>
     <p>〒123-4567　見本県見本町1－2－34　サンプルビル5F<br />
@@ -23,6 +18,6 @@
     </div>
   </footer>
   <address>
-  Copyright(C) レスポンシブHPテンプレート no.007 All Rights Reserved.
+  Copyright(C) matsum0623 All Rights Reserved.
   </address>
 </div><!--/foot_base end-->
